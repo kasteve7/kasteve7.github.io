@@ -1,0 +1,115 @@
+body
+{
+	background:#a6d2ff;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+a
+{
+	color: black;
+}
+
+div.navbar
+{
+	align-self: center;
+	font-size: 24px;
+	display: inline-block;
+	background:#cce6ff;
+	border-radius:20px;
+	padding:10px;
+	margin-bottom: 10px;
+	box-shadow:5px 5px #80c1ff;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.navcontainer
+{
+	display: inline-block;
+	border-left-style: solid;
+	border-left-width: 2px;
+	border-left-color: #80c1ff;
+	padding-left: 6px;
+}
+
+div.navitem
+{
+	display: inline-block;
+	font-size: 24px;
+	border-radius:5px;
+	padding: 10px;
+}
+
+.interactible
+{
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-property: background-color;
+	transition-duration: 0.2s;
+	transition-property: background-color;
+	cursor: pointer;
+}
+
+.interactible:hover
+{
+	background-color: white;
+	color: black;
+}
+
+.clicked
+{
+	background-color: #80c1ff;
+	color: black;
+}
+
+img.scaled
+{
+	width: 240px;
+	height: auto;
+}
+
+.rounded
+{
+	border-radius: 20;
+}
+
+div.content
+{
+	background:#cce6ff;
+	border-radius:20px;
+	padding:20px;
+	margin-bottom: 10px;
+	box-shadow:5px 5px #80c1ff;
+	vertical-align: top;
+}
+
+div.gamedesc
+{
+	display: inline-block;
+	flex-grow: 1;
+	background:#cce6ff;
+	border-radius:20px;
+	padding:20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	box-shadow:5px 5px #80c1ff;
+}
+
+.inline
+{
+	display: inline-block;
+}
+
+.leftpadded
+{
+	padding-left: 250px
+}
+
+.calendarday
+{
+	object-fit: cover;
+	width:160px;
+	height:160px;
+}
