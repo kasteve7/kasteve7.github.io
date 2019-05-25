@@ -1,6 +1,9 @@
 body
 {
+	font-family: Tahoma, Geneva, sans-serif;
 	background:#a6d2ff;
+	background-image: url("images/bg.png");
+  	background-repeat: repeat;
 	margin-left: 100px;
 	margin-right: 100px;
 }
@@ -19,7 +22,8 @@ div.navbar
 	border-radius:20px;
 	padding:10px;
 	margin-bottom: 10px;
-	box-shadow:5px 5px #80c1ff;
+	max-height: 28px
+	box-shadow:0px 5px #80c1ff;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -64,6 +68,25 @@ div.navitem
 	color: black;
 }
 
+.smbutton
+{
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-property: opacity;
+	transition-duration: 0.2s;
+	transition-property: opacity;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: bottom;
+	height: 28px;
+	width: 28px;
+	padding-right: 5px;
+}
+
+.smbutton:hover
+{
+	opacity: 0.6;
+}
+
 img.scaled
 {
 	width: 240px;
@@ -72,7 +95,7 @@ img.scaled
 
 .rounded
 {
-	border-radius: 20;
+	border-radius: 8px;
 }
 
 div.content
@@ -81,7 +104,7 @@ div.content
 	border-radius:20px;
 	padding:20px;
 	margin-bottom: 10px;
-	box-shadow:5px 5px #80c1ff;
+	box-shadow:0px 5px #80c1ff;
 	vertical-align: top;
 }
 
